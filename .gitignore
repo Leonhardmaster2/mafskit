@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+out/
+.next/
+
+# Documentation website
+docs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env*.local
+.envrc
+
+# Vercel
+.vercel/
+
+# Claude
+.claude/
+
+# Test artifacts
+tests/frameworks/vite/tsconfig.app.tsbuildinfo
+tests/frameworks/vite/tsconfig.node.tsbuildinfo
